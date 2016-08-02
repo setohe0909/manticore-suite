@@ -18,18 +18,23 @@ var jsPlugins = [
     '../dep/angular-resource/angular-resource.min.js',
     '../dep/textAngular/dist/textAngular-rangy.min.js',
     '../dep/textAngular/dist/textAngular-sanitize.min.js',
-    '../dep/textAngular/dist/textAngular.min.js'
+    '../dep/textAngular/dist/textAngular.min.js',
+    '../../../node_modules/chart.js/dist/Chart.js',
+    '../../../node_modules/angular-chart.js/dist/angular-chart.min.js'
 ];
+
 var cssPlugins = [
     '../dep/bootstrap/dist/css/bootstrap-paper.min.css',
     '../dep/animate-css/animate-css.min.css',
     '../dep/textAngular/dist/textAngular.css',
     '../dep/font-awesome/css/font-awesome.min.css'
 ];
+
 var appScripts = [
     'admin/app/**/*.modules.js',
     'admin/app/**/*.js'
 ];
+
 var appSass = [
     'admin/bundle.scss'
 ];

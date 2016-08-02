@@ -4,7 +4,8 @@
 
     angular
         .module('app.dashboard', [
-            'app.core'
+            'app.core',
+            'chart.js'
         ]);
 
 }());

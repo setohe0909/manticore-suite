@@ -15,7 +15,8 @@
             'app.dashboard',
             'app.users',
             'app.posts',
-            'app.gallery'
+            'app.gallery',
+            'app.people'
         ]);
 
 }());
@@ -26,7 +27,8 @@
     angular
         .module('app.core', [
             'ui.router',
-            'ngResource'
+            'ngResource',
+            'chart.js'
         ]);
 
 }());
@@ -44,6 +46,16 @@
 
     angular
         .module('app.dashboard', [
+            'app.core'
+        ]);
+
+}());
+(function() {
+
+    'use strict';
+
+    angular
+        .module('app.people', [
             'app.core'
         ]);
 
